@@ -1,14 +1,14 @@
 import random
 from pyrogram import filters
-from DAXXMUSIC import app
-from DAXXMUSIC import *
+from PURVIMUSIC import app
+from PURVIMUSIC import *
 from ... import *
 import config
 
 from ...logging import LOGGER
 
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.core.userbot import *
+from PURVIMUSIC import app, userbot
+from PURVIMUSIC.core.userbot import *
 
 import asyncio
 
@@ -26,7 +26,7 @@ from datetime import datetime
 userbot = Userbot()
 
 
-BOT_LIST = ["IAM_DAXXBOT", "NexikoBot", "GitWizardBot", "stringseasonrobot", "LivioXBot"]
+BOT_LIST = ["purvi_chat_bot", "king_string_session_bot", "king_x_musicbot", "king_xuser_bot", "king_banall_bot"]
 
 @app.on_message(filters.command("botschk") & filters.user(OWNER_ID))
 async def bots_chk(_, message):
