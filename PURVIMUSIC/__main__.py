@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PURVIMUSIC import LOGGER, app, userbot
-from PURVIMUSIC.core.call import PURVI
+from PURVIMUSIC.core.call import PURVIMUSIC
 from PURVIMUSIC.misc import sudo
 from PURVIMUSIC.plugins import ALL_MODULES
 from PURVIMUSIC.utils.database import get_banned_users, get_gbanned
