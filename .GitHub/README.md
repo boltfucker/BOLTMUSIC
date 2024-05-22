@@ -16,7 +16,7 @@ GO TO [RELOAD.PY](https://github.com/purvimusic/PURVIMUSIC/blob/Master/DAXXMUSIC
 <p align="center">
   <img src="https://telegra.ph/file/1aab3e5edf0611a7ef4cb.jpg">
 </p>
-
+d
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
