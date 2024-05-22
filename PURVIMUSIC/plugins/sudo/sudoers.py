@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from DAXXMUSIC import app
+from PURVIMUSIC import app
 from pyrogram.types import InputMediaVideo
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import add_sudo, remove_sudo
-from DAXXMUSIC.utils.decorators.language import language
-from DAXXMUSIC.utils.extraction import extract_user
-from DAXXMUSIC.utils.inline import close_markup
+from PURVIMUSIC.misc import SUDOERS
+from PURVIMUSIC.utils.database import add_sudo, remove_sudo
+from PURVIMUSIC.utils.decorators.language import language
+from PURVIMUSIC.utils.extraction import extract_user
+from PURVIMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
