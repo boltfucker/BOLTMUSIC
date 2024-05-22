@@ -1,7 +1,7 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from purvihub import purvihub as paparaushan
+from daxxhub import daxxhub as papadaxx
 from PURVIMUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -9,8 +9,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @app.on_message(filters.command("purvihub"))
 async def purvihub(_, message):
     text = message.text[len("/daxxhub") :]
-    paparaushan(f"{text}").save(f"purvihub_{message.from_user.id}.png")
-    await message.reply_photo(f"purvihub_{message.from_user.id}.png")
+    papadaxx(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
+    await message.reply_photo(f"daxxhub_{message.from_user.id}.png")
     os.remove(f"daxxhub_{message.from_user.id}.png")
 ####
 
