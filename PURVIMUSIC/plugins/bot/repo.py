@@ -36,20 +36,20 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/your_alpha_baby"),
           ],
                [
-                InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟 𝗕𝗢𝗧", url=f"https://github.com/purvimusic/ALPHA_BANALL"),
+                InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟 𝗕𝗢𝗧", url=f"https://github.com/TEAMPURVI/ALPHA_BANALL"),
 
 ],
 [
-              InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/purvimusic/ALPHA_USERBOT"),
-              InlineKeyboardButton("︎𝗣𝗨𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/purvimusic/PURVIMUSIC"),
+              InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/TEAMPURVI/ALPHA_USERBOT"),
+              InlineKeyboardButton("︎𝗣𝗨𝗥𝗩𝗜 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/TEAMPURVI/PURVIMUSIC"),
               ],
               [
-              InlineKeyboardButton("𝗞𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/purvimusic/ALPHA_X_MUSIC"),
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗕𝗢𝗧 ", url=f"https://github.com/purvimusic/PURVI_SRTING"),
+              InlineKeyboardButton("𝗞𝗜𝗡𝗚 𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/TEAMPURVI/ALPHA_X_MUSIC"),
+InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗕𝗢𝗧 ", url=f"https://github.com/TEAMPURVI/PURVI_STRING"),
 ],
 [
-InlineKeyboardButton("𝗦𝗣𝗔𝗠 𝗕𝗢𝗧", url=f"https://github.com/purvimusic/ALPHA_RS"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/purvimusic/PURVI_CHAT"),
+InlineKeyboardButton("𝗦𝗣𝗔𝗠 𝗕𝗢𝗧", url=f"https://github.com/TEAMPURVI/ALPHA_SPAM"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/TEAMPURVI/PURVI_CHAT"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
