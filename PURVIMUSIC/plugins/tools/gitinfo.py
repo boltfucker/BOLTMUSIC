@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
 @app.on_message(filters.command("purvihub"))
-async def purvihub(_, message):
+async def daxxhub(_, message):
     text = message.text[len("/daxxhub") :]
     papadaxx(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
     await message.reply_photo(f"daxxhub_{message.from_user.id}.png")
