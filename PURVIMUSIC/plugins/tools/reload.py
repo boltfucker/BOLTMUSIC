@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from DAXXMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from DAXXMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from PURVIMUSIC import app
+from PURVIMUSIC.core.call import PURVI
+from PURVIMUSIC.misc import db
+from PURVIMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from PURVIMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from PURVIMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -70,7 +70,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await DAXX.stop_stream_force(message.chat.id)
+        await PURVI.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
@@ -97,7 +97,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await DAXX.stop_stream_force(chat_id)
+            await PURVI.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
@@ -118,7 +118,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/sage_xd")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/your_alpha_baby")
                  ]
             ]
          ),
