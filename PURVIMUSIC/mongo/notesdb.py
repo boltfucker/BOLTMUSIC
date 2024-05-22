@@ -1,6 +1,6 @@
-from DAXXMUSIC.utils.mongo import db
+from PURVIMUSIC.utils.mongo import db
 
-#from DAXXMUSIC.mongo import *# back...............
+#from PURVIMUSIC.mongo import *# back...............
 
 notes = db.notes["notes"]
 
